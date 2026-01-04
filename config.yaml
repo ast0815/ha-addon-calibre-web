@@ -1,6 +1,6 @@
 name: "Calibre-Web"
 description: "Host your own web library"
-version: "0.6.25v0"
+version: "0.6.25.1"
 slug: "calibre-web"
 arch:
   - armhf
@@ -11,3 +11,8 @@ arch:
 init: false
 ports:
   8083/tcp: 8083
+url: https://github.com/janeczku/calibre-web
+webui: http://[HOST]:[PORT:8083]
+map:
+  - share
+  - media
