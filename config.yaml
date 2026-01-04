@@ -1,0 +1,13 @@
+name: "Calibre-Web"
+description: "Host your own web library"
+version: "0.6.25v0"
+slug: "calibre-web"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+ports:
+  8083/tcp: 8083
